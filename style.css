@@ -1,0 +1,81 @@
+:root {
+    --mickey: 40px;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, aquamarine, rgb(131, 233, 131));
+    padding: clamp( 20px, 5vw, 50px) 20px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: var(--mickey);
+    margin-bottom: var(--mickey);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(106, 150, 187);
+}
+
+
+.global-container {
+    max-width: 800px;
+    margin-bottom: 0 auto;
+}
+
+.question-block {
+    padding: 25px;
+    margin: 20px 0;
+    background: linear-gradient(to right, aliceblue, rgb(140, 182, 220));
+    border-radius: 5px;
+    box-shadow: 0 5px 10px grey;
+}
+
+.question-block h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.question-block > div {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.question-block label {
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+form button {
+    min-width: 250px;
+    margin: 20px auto;
+    padding: 13px 5px;
+    border: none;
+    display: block;
+    text-align: center;
+    box-shadow: 0 5px 10px grey;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(70, 148, 216);
+}
