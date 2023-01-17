@@ -11,18 +11,15 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background: linear-gradient(to right, aquamarine, rgb(131, 233, 131));
-    padding: clamp( 20px, 5vw, 50px) 20px 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: clamp(20px, 5vw, 50px) 20px 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: var(--mickey);
     margin-bottom: var(--mickey);
     font-weight: 700;
@@ -31,10 +28,9 @@ h1 {
     color: rgb(106, 150, 187);
 }
 
-
 .global-container {
     max-width: 800px;
-    margin-bottom: 0 auto;
+    margin: 0 auto;
 }
 
 .question-block {
